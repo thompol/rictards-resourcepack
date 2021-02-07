@@ -1,0 +1,209 @@
+{
+  "models": 
+  [
+###################  Unwanted parts  ######################
+    {
+      "part": "headwear",
+      "attach": False,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "part": "headwear2",
+      "attach": False,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "part": "bodywear",
+      "attach": False,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "part": "nose",
+      "attach": False,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "part": "arms",
+      "attach": False,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+###################  Head  ######################
+    {
+      "part": "head",
+      "attach": False,
+      "model": "villagerhead.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "part": "head",
+      "attach": True,
+      "model": "villagerhat.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+###################  Body  ######################
+    {
+      "part": "body",
+      "attach": False,
+      "model": "villagerbody.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "part": "body",
+      "attach": True,
+      "model": "villagerbodyprofession.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "part": "body",
+      "attach": True,
+      "model": "villagerlevel.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+###################  Legs ######################
+    {
+      "part": "left_leg",
+      "attach": False,
+      "model": "villagerleftleg.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "1.25*part.rx"
+    	}
+      ]
+    },
+    {
+      "part": "left_leg",
+      "attach": True,
+      "model": "villagerlefttrouser.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "1.25*part.rx"
+    	}
+      ]
+    },
+    {
+      "part": "right_leg",
+      "attach": False,
+      "model": "villagerrightleg.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "1.25*part.rx"
+    	}
+      ]
+    },
+    {
+      "part": "right_leg",
+      "attach": True,
+      "model": "villagerrighttrouser.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "1.25*part.rx"
+    	}
+      ]
+    },
+    {
+      "part": "left_leg",
+      "attach": True,
+      "model": "villagerfrontapron.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "if(part.rx<0, 1.25*part.rx, -3.5*part.rx)"
+    	}
+      ]
+    },
+    {
+      "part": "left_leg",
+      "attach": True,
+      "model": "villagerbackapron.jpm",
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "if(part.rx<0, -3.5*part.rx, 1.25*part.rx)"
+    	}
+      ]
+    },
+###################  Arms ######################
+    {
+      "part": "body",
+      "attach": True,
+      "model": "villagerrightarm.jpm",
+      "translate": [6, 1, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "0.05*sin(0.2*time/3)+2*right_leg.rx",
+	  "this.rz": "0.05*sin(0.2*time/3)-0.05"
+    	}
+      ]
+    },
+    {
+      "part": "body",
+      "attach": True,
+      "model": "villagerrightsleeve.jpm",
+      "translate": [6, 1, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "0.05*sin(0.2*time/3)+2*right_leg.rx",
+	  "this.rz": "0.05*sin(0.2*time/3)-0.05"
+    	}
+      ]
+    },
+    {
+      "part": "body",
+      "attach": True,
+      "model": "villagerleftarm.jpm",
+      "translate": [-6, 1, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "-0.05*sin(0.2*time/3)+2*left_leg.rx",
+	  "this.rz": "0.05-0.05*sin(0.2*time/3)"
+    	}
+      ]
+    },
+    {
+      "part": "body",
+      "attach": True,
+      "model": "villagerleftsleeve.jpm",
+      "translate": [-6, 1, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+      [
+    	{
+	  "this.rx": "-0.05*sin(0.2*time/3)+2*left_leg.rx",
+	  "this.rz": "0.05-0.05*sin(0.2*time/3)"
+    	}
+      ]
+    }
+  ]
+}

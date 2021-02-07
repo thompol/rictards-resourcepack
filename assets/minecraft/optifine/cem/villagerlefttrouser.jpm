@@ -1,0 +1,16 @@
+{
+	"texture": "textures/entity/villager/clothes/profession",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench",
+	"boxes": [
+		{
+			"coordinates": [-2.1247, 0, -2.255, 4.25, 8.1673, 4.51],
+			"uvNorth": [8, 56, 12, 64],
+			"uvEast": [24, 36, 28, 44],
+			"uvSouth": [16, 56, 20, 64],
+			"uvWest": [12, 56, 16, 64],
+			"uvUp": [20, 40, 16, 44],
+			"uvDown": [2, 0, 2, 0]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"texture": "textures/entity/villager/clothes/level",
+	"textureSize": [4, 4],
+	"credit": "Made with Blockbench",
+	"boxes": [
+		{
+			"coordinates": [0.00, 10, -2.26, 4.3, 4.1, 1],
+			"uvNorth": [0, 0, 4, 4],
+			"uvEast": [0, 0, 0, 0],
+			"uvSouth": [0, 0, 0, 0],
+			"uvWest": [0, 0, 0, 0],
+			"uvUp": [0, 0, 0, 0],
+			"uvDown": [0, 0, 0, 0]
+		}
+	]
+}
